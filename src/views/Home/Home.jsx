@@ -1,0 +1,3 @@
+export default () => (
+  <h3>This is Home Page</h3>
+)
