@@ -1,27 +1,17 @@
 /*
  * @Author: Sunly
  * @Date: 2021-05-12 15:06:47
- * @LastEditTime: 2021-05-12 15:08:36
+ * @LastEditTime: 2021-05-13 15:57:43
  * @LastEditors: Sunly
  * @Description: vuex
  * @FilePath: \vue3-jsx-template\src\store\index.js
  */
 import { createStore } from "vuex";
 
+import user from "./modules/user";
+
 export default createStore({
-  state() {
-    return {
-      count: 0,
-    };
-  },
-  mutations: {
-    ADD_COUNT(state) {
-      state.count++;
-    },
-  },
-  actions: {
-    increment(context) {
-      context.commit("ADD_COUNT");
-    },
+  modules: {
+    user: user,
   },
 });

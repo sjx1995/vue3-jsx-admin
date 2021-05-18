@@ -1,7 +1,7 @@
 /*
  * @Author: Sunly
  * @Date: 2021-05-12 14:50:24
- * @LastEditTime: 2021-05-12 16:11:55
+ * @LastEditTime: 2021-05-13 17:11:50
  * @LastEditors: Sunly
  * @Description: eslint 配置文件
  * @FilePath: \vue3-jsx-template\.eslintrc.js

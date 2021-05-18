@@ -4,11 +4,13 @@
 
 ## Feature
 
-- vue@3
-- vite@2
-- vue-router@4
-- vuex@4
+- vue@3.0
+- vite@2.0
+- vue-router@4.0
+- vuex@4.0
 - jsx
+- tailwindcss@2.1
+- ant-design-vue@2.0
 
 ## Project setup
 
