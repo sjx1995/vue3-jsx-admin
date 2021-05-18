@@ -1,7 +1,7 @@
 /*
  * @Author: Sunly
  * @Date: 2021-05-12 14:15:38
- * @LastEditTime: 2021-05-12 15:34:39
+ * @LastEditTime: 2021-05-18 19:32:45
  * @LastEditors: Sunly
  * @Description: vite 配置文件
  * @FilePath: \vue3-jsx-template\vite.config.js
@@ -23,5 +23,8 @@ export default defineConfig({
     alias: {
       "@": "/src",
     },
+  },
+  build: {
+    outDir: "dist",
   },
 });

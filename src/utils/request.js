@@ -1,7 +1,7 @@
 /*
  * @Author: Sunly
  * @Date: 2021-05-13 11:42:20
- * @LastEditTime: 2021-05-13 18:34:44
+ * @LastEditTime: 2021-05-18 19:33:08
  * @LastEditors: Sunly
  * @Description: 封装axios
  * @FilePath: \vue3-jsx-template\src\utils\request.js

@@ -1,7 +1,7 @@
 /*
  * @Author: Sunly
  * @Date: 2021-05-13 10:31:53
- * @LastEditTime: 2021-05-18 18:17:44
+ * @LastEditTime: 2021-05-18 18:40:46
  * @LastEditors: Sunly
  * @Description: vuex/user
  * @FilePath: \vue3-jsx-template\src\store\modules\user.js
@@ -25,8 +25,6 @@ const mutations = {
 
 const actions = {
   async login({ commit }, userInfo) {
-    console.log("触发login commit");
-    console.log(commit, userInfo);
     try {
       const { data } = await Login(userInfo);
       commit("SET_TOKEN", data);

@@ -2,6 +2,7 @@
   "name": "vue3-admin-template",
   "version": "0.0.1",
   "author": "Sunly",
+  "homepage": "https://sjx1995.github.io/vue3-jsx-admin",
   "license": "MIT",
   "scripts": {
     "dev": "vite",

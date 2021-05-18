@@ -1,7 +1,7 @@
 /*
  * @Author: Sunly
  * @Date: 2021-05-12 15:03:08
- * @LastEditTime: 2021-05-18 17:58:50
+ * @LastEditTime: 2021-05-18 19:33:30
  * @LastEditors: Sunly
  * @Description: 路由
  * @FilePath: \vue3-jsx-template\src\router\index.js
@@ -50,7 +50,7 @@ const routes = [
     name: "404",
     hide: true,
     meta: { title: "404 NOT FOUND" },
-    component: () => import("@/404/index"),
+    component: () => import("@/views/404/index"),
   },
 ];
 
@@ -61,7 +61,7 @@ const router = createRouter({
 
 router.beforeEach(async (to, from, next) => {
   const token = getToken();
-  const userInfo = store.state.user.userInfo;
+  // const userInfo = store.state.user.userInfo;
   document.title = to.meta.title;
   if (to.path === "/login") {
     if (token) {
